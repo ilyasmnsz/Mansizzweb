@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    background-color: aquamarine;
+    border-bottom: 1px solid white;
+}
+.logo {
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+span {
+    color: whitesmoke;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: whitesmoke;
+    transition: 1s;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+h4 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+h1 {
+    color: black;
+    font-size: 50px;
+}
+h3 {
+    color: black;
+    font-size: 30px;
+}
+.content a {
+    font-size: 20px;    
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30p;
+}
+.content a:hover {
+    color: whitesmoke;
+    transition: 1s;
+}
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: aqua;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: 50%;
+    width: 30%;
+    border-radius: 10px;
+}
+.about-text {
+    width: 600px;
+}
+.about-text h2 {
+    color: whitesmoke;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.about-text h3 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid whitesmoke;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 1s;
+}
+.button:hover {
+    background-color: black;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+.services {
+    background: aqua;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2 {
+    color: black;
+    font-size: 80px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.card {
+    height: 200px;
+    width: 225px;
+    padding: 20px 25px;
+    background: transparent;
+    border-radius: 15px;
+    margin: 0,5px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: darkgreen;
+}
+.card h5 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.pra p {
+    color: whitesmoke;
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.pra p a {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.pra p a:hover {
+    background-color: black;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
